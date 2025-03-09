@@ -1,35 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>    
-</head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 131 – Dynamic Web Fundamentals - Cristhian Diaz</title>
-    <link rel="styles" href="styles/base.css"/>
-<header>
+    <meta name="profile" content="Cristhian Diaz">
+    <link rel="stylesheet" href="styles/base.css"/>
+    
+    
+  </head>
+<body>
     <h1> WDD 131 – Dynamic Web Fundamentals - Cristhian Diaz </h1>
+<header>
+<div class="topnav">
+    <a href="https://www.linkedin.com/in/eliel-diaz-375a46129?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="enlace" >LinkedIn</a> 
+    <a href="https://byupw.instructure.com/" class="enlace" >Canvas</a> 
+    <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/17?lang=eng&id=p50-p51#p50" class="enlace" >Scripture</a> 
+    <a href="#" class="enlace">Final Project</a>
+  </div>
 </header>
-
-<nav>
-    <a href="/html/">LinkedIn</a> |
-    <a href="https://byupw.instructure.com/">Canvas</a> |
-    <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/17?lang=eng&id=p50-p51#p50">Scripture</a> |
-    <a href="">Final Project</a>
-  </nav>
-  <body>
+ <main>
+    <section>
+      <div class="card1">
+        <h1> About me</h1>
+        <div class="paragraph">
+          <p> My name is Cristhian Diaz. I'm from Honduras, I'm married, and we didn't have children yet. Currently I'm working as a truck driver. I love watching movies and series. 
+          </p>
+          <img src="/images/photo.jpg" alt="right-image">
+        </div>
+      </section>
+      <section><div class="card2">
+        <h1>Web Dev Resources</h1>
+        <div class="Resources">
+            <a href="#">. Dev.to Community</a>
+            <a href="#">. Smashing Magazine</a>
+            <a href="#">. CSS Tricks</a>
+            <a href="#">. W3 Schools</a>
+            <a href="#">. Udemy</a>
+            <a href="#">. Image Placeholder</a>
+            <a href="./wdd131/project/project.html">. project</a>
+        </div>
+      </section>
+  </main>
   <footer>
-    <span id="currentyear"></span>
-    Cristhian Diaz
-    Honduras
-    <h5>JavaScript Date Object</h5>
-<p id="full"></p>
-<p id="world-full"></p>
-<p id="short"></p>
-<p id="medium"></p>
-<p id="year"></p>
-<p id="month"></p>
-<p id="day"></p>
-<p id="dayofweek"></p>
+    &copy;
+      <span id="copyright">
+          <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+      </span>
+      Cristhian Diaz Honduras
+         
+  <p id="lastmodified"></p>
+  <script src="./scripts/getdates.js"></script>
   </footer>
     
 </body>
