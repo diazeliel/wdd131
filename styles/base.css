@@ -80,14 +80,7 @@ main{
         align-content: center;
     }
 
-    img{
-        display: flex;
-        padding-inline-start: 100px;
-        padding: top 0;
-        width: 300px;
-        height: 100;
-        align-items:flex;
-        }
+    
 
         .Resources{
             display:list-item;
