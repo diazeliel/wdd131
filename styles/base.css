@@ -80,7 +80,10 @@ main{
         align-content: center;
     }
 
-    
+    .img{
+        align-content: center;
+        font-variant-position:normal
+    }
 
         .Resources{
             display:list-item;
