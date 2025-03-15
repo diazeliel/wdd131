@@ -12,8 +12,7 @@ header, main, footer {
     border: 1px solid black(0, 0, 0, 0.1);
     padding: 1rem;
     background-color: #9ad8e0;
-   
-}
+   }
 
 header {
     text-align: center;

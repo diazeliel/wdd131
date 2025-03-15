@@ -3,68 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131 - Dynamic Web Fundamentals -Cristhian Diaz </title>
-    <meta name="description" content="Assignment: Picture Album">
-    <meta name="autor" contenet="Cristhian Eliel Diaz Madrid">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <meta name="Jarom Campos" content="Temple Album">
+    <title>Temple Album</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/temples.css">
-    <link rel="stylesheet" href="styles/media-query-large.css">
-    
-    <a id =menu href="#"></a>
-    <nav>
-        <ul class="navigation">
-        <li><a href="/Home/">Home</a></li> 
-        <li><a href="/Old/">Old</a></li> 
-        <li><a href="//">New</a></li> 
-        <li><a href="//">Large</a></li> 
-        <li><a href="//">small</a></li> 
-    </ul>
-      </nav>
+    <link rel="stylesheet" href="styles/temples-large.css" media="screen and (min-width: 768px)">
+    <script src="scripts/temples.js" defer></script>
 </head>
 <body>
-    <main>
-        <figure>
-            <img class="hover" src="https://churchofjesuschristtemples.org/assets/img/temples/san-pedro-sula-honduras-temple/san-pedro-sula-honduras-temple-52518.jpg" loading="lazy">
-            <figcaption>San Pedro Sula Honduras Temple</figcaption>
-        </figure>
-        <figure><img class="rocorn" src="https://churchofjesuschristtemples.org/assets/img/temples/san-pedro-sula-honduras-temple/san-pedro-sula-honduras-temple-52518.jpg" loading="lazy">
-        <figcaption>San Pedro Sula Honduras Temple</figcaption>
-    </figure>
-        <figure><img class="opac" src="https://churchofjesuschristtemples.org/assets/img/temples/san-pedro-sula-honduras-temple/san-pedro-sula-honduras-temple-52518.jpg" loading="lazy">>
-            <figcaption>San Pedro Sula Honduras Temple</figcaption>
-        </figure>
-        <figure><img class="blur" src="https://churchofjesuschristtemples.org/assets/img/temples/san-pedro-sula-honduras-temple/san-pedro-sula-honduras-temple-52518.jpg" loading="lazy">
-            <figcaption>San Pedro Sula Honduras Temple</figcaption>
-        </figure>
-        <figure><img class="gray" src="https://churchofjesuschristtemples.org/assets/img/temples/san-pedro-sula-honduras-temple/san-pedro-sula-honduras-temple-52518.jpg" loading="lazy">
-            <figcaption>San Pedro Sula Honduras Temple</figcaption>
-        </figure>
-        <figure><img class="contrast" src="https://churchofjesuschristtemples.org/assets/img/temples/san-pedro-sula-honduras-temple/san-pedro-sula-honduras-temple-52518.jpg" loading="lazy">
-            <figcaption>San Pedro Sula Honduras Temple</figcaption>
-        </figure>
-        <figure><img class="contrast" src="https://churchofjesuschristtemples.org/assets/img/temples/san-pedro-sula-honduras-temple/san-pedro-sula-honduras-temple-52518.jpg" loading="lazy">
-            <figcaption>San Pedro Sula Honduras Temple</figcaption>
-        </figure>
-        <figure><img class="contrast" src="https://churchofjesuschristtemples.org/assets/img/temples/san-pedro-sula-honduras-temple/san-pedro-sula-honduras-temple-52518.jpg" loading="lazy">
-            <figcaption>San Pedro Sula Honduras Temple</figcaption>
-        </figure>
-        <figure><img class="contrast" src="https://churchofjesuschristtemples.org/assets/img/temples/san-pedro-sula-honduras-temple/san-pedro-sula-honduras-temple-52518.jpg" loading="lazy">
-            <figcaption>San Pedro Sula Honduras Temple</figcaption>
-        </figure>
-    </main>
     <header>
+        <h1 class="titlemain">Temple Album</h1>
+        <nav>
+            <button class="hamburger">&#9776;</button>
+            <ul class="nav-links">
+                <li><a href="https://jarombyui.github.io/wdd131/">Home</a></li>
+                <li><a href="#">Old</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Large</a></li>
+                <li><a href="#">Small</a></li>
+            </ul>
+        </nav>
     </header>
+
+    <main>
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <figure>
+                <img src="https://noticias-gt.laiglesiadejesucristo.org/media/960x720/San-Pedro-Sula-exterior-HN.jpg" loading="lazy">
+                <figcaption>San Pedro Sula, Honduras Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="https://noticias-gt.laiglesiadejesucristo.org/media/960x720/San-Pedro-Sula-exterior-HN.jpg" loading="lazy">
+                <figcaption>San Pedro Sula, Honduras Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="https://noticias-gt.laiglesiadejesucristo.org/media/960x720/San-Pedro-Sula-exterior-HN.jpg" loading="lazy">
+                <figcaption>San Pedro Sula, Honduras Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="https://noticias-gt.laiglesiadejesucristo.org/media/960x720/San-Pedro-Sula-exterior-HN.jpg" loading="lazy">
+                <figcaption>San Pedro Sula, Honduras Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="https://noticias-gt.laiglesiadejesucristo.org/media/960x720/San-Pedro-Sula-exterior-HN.jpg" loading="lazy">
+                <figcaption>San Pedro Sula, Honduras Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="https://noticias-gt.laiglesiadejesucristo.org/media/960x720/San-Pedro-Sula-exterior-HN.jpg" loading="lazy">
+                <figcaption>San Pedro Sula, Honduras Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="https://noticias-gt.laiglesiadejesucristo.org/media/960x720/San-Pedro-Sula-exterior-HN.jpg" loading="lazy">
+                <figcaption>San Pedro Sula, Honduras Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="https://noticias-gt.laiglesiadejesucristo.org/media/960x720/San-Pedro-Sula-exterior-HN.jpg" loading="lazy">
+                <figcaption>San Pedro Sula, Honduras Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="https://noticias-gt.laiglesiadejesucristo.org/media/960x720/San-Pedro-Sula-exterior-HN.jpg" loading="lazy">
+                <figcaption>San Pedro Sula, Honduras Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="https://noticias-gt.laiglesiadejesucristo.org/media/960x720/San-Pedro-Sula-exterior-HN.jpg" loading="lazy">
+                <figcaption>San Pedro Sula, Honduras Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="https://noticias-gt.laiglesiadejesucristo.org/media/960x720/San-Pedro-Sula-exterior-HN.jpg" loading="lazy">
+                <figcaption>San Pedro Sula, Honduras Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="https://noticias-gt.laiglesiadejesucristo.org/media/960x720/San-Pedro-Sula-exterior-HN.jpg" loading="lazy">
+                <figcaption>San Pedro Sula, Honduras Temple</figcaption>
+            </figure>
+        </div>
+    </main>
+
     <footer>
-        &copy;
-      <span id="copyright">
-          <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
-      </span>
-      Cristhian Diaz Honduras
+        <p>&copy; <span id="currentyear"></span> Cristhian Diaz , Honduras</p>
         <p id="lastModified"></p>
     </footer>
-    <script src="./temples.js"></script>
-    <script src="./scripts/index.js"></script>
+
 </body>
 </html>

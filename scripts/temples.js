@@ -1,11 +1,26 @@
-//store and selected elements that we are going to use
-const mainnav = document.querySelector('.navigation')
-const hambutton = document.querySelector('#menu')
+document.addEventListener("DOMContentLoaded", () => {
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    const lastModified = document.getElementById("lastModified");
+    const currentYear = document.getElementById("currentyear");
 
-//add a click event listender to the hamburguer button and use a callback funtion that toggles the list elements list's of classes
-hambutton.addEventListener('click', ()=>{
-	mainnav.classList.toggle('show');
-	hambutton.classList.toggle('show');
+    // Toggle nav menu on hamburger click
+    hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('show');
+        hamburger.textContent = navLinks.classList.contains('show') ? '✖' : '☰';
+    });
+
+    // Update footer with last modified date
+    lastModified.textContent = `Last Modified: ${document.lastModified}`;
+
+    // Update footer with current year
+    currentYear.textContent = new Date().getFullYear();
+
+    // Handle zoom responsivity (resize event listener)
+    window.addEventListener('resize', () => {
+        if (window.innerWidth >= 768) {
+            navLinks.classList.remove('show');
+            hamburger.textContent = '☰';
+        }
+    });
 });
-
-//What does toggle mean? Instead separate add and remove statements, toggle means add the class if it does not currently exist or remoce the name class if it does exist
