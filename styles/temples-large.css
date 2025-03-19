@@ -11,22 +11,3 @@
 .gallery {
     grid-template-columns: repeat(3, 1fr);
 }
-
-.titlemain{
-    text-align: left;
-    position: relative;
-    left: 20px;
-    }
- /*Styles for larger screens*/
-.hamburger {
-    display: none;
-}
-
-.nav-links {
-    display: flex;
-    justify-content: center;
-}
-
-.gallery {
-    grid-template-columns: repeat(3, 1fr);
-} 
