@@ -3,10 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131 W03 Assignment: Country Page</title>
-    
-</head>
-<body>
-    
-</body>
-</html>
+    <title>Country Page</title>
+    <meta name="author" content="Cristhian Eliel Diaz Madrid">
+    <meta name="description" content="place Torreon, Mexico">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css" media="screen and (min-width: 768px)">
+    <script src="scripts/place.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Torreon</h1>
+    </header>
+  
+    <main>
+      <section class="hero">
+        <picture>
+          <source srcset="images/hero-large.webp" media="(min-width: 1000px)">
+          <source srcset="images/hero-medium.webp" media="(min-width: 500px)">
+          <img src="images/hero-small.webp" alt="visited place"  width="500" height="250">
+        </picture>
+      </section>
+  
+      <section class="data">
+        <h2>Data</h2>
+        <ul>
+          <li><strong>Area:</strong> 1,255.98 km²</li>
+          <li><strong>Population:</strong> 720,848 people</li>
+          <li><strong>Languages:</strong> Spanish</li>
+          <li><strong>Local currency:</strong> Mexican Peso (MXN)</li>
+          <li><strong>Time Zone:</strong> GMT-6</li>
+          <li><strong>Call Code:</strong> 871</li>
+          <li><strong>Internet Domain:</strong> .mx</li>
+        </ul>
+      </section>
+  
+      <section class="weather">
+        <h2>Weather  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gold" class="bi bi-brightness-high-fill" viewBox="0 0 16 16">
+    <path d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/>
+  </svg> </h2>
+        <ul>
+          <li><strong>Temperature:</strong> <span id="temp">28 °C</span></li>
+          <li><strong>Conditions:</strong> Sunny</li>
+          <li><strong>Wind:</strong> <span id="wind">6 km/h</span></li>
+          <li><strong>Wind Chill:</strong> <span id="windChill">Calculando...</span></li>
+        </ul>
+      </section>
+    </main>
+  
+    <footer class="foot">
+      <p>&copy; <span id="year"></span> Cristhian Diaz , Honduras | Last Modified: <span id="lastModified"></span></p>
+    </footer>
+  </body>
+  </html>
+  
