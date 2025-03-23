@@ -30,3 +30,4 @@ function calculateWindChill(temp, wind) {
 const windChill = calculateWindChill(temperature, windSpeed);
 windChillElement.textContent = windChill + ' °C';
 
+//curr
