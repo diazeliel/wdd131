@@ -32,6 +32,13 @@
     font-size: 2.5rem;
   }
   
+/* Using ::after to add a decorative element after the h1 */
+h1::after {
+  content: "🌎"; /* Adding a sparkle emoji or icon */
+  font-size: 1.5rem; /* Slightly smaller than the heading text */
+  margin-left: 0.5rem; /* Space between text and emoji */
+}
+  
   main {
     flex: 1;
     position: relative ;
@@ -85,6 +92,7 @@
     text-align: center;
     font-size: 1.5em;
   }
+  
 
   @media (max-width: 700px) {
     .data, .weather {
