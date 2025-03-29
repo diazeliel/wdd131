@@ -1,9 +1,9 @@
 :root {
-    --primary-color: #2fa604ec;
-    --secondary-color: #008826e9;
-    --background-color: #ffffffe3;
-    --text-color: #ffffffe3;
-    --overlay-color: #048e89;
+    --primary-color: rgb(0, 128, 0);
+    --secondary-color: rgb(0, 128, 0);
+    --background-color: rgb(255, 255, 255);
+    --text-color: rgb(255, 255, 255);
+    --overlay-color: rgb(173, 216, 230);
   }
 
 
