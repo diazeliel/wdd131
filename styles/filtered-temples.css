@@ -1,9 +1,9 @@
 :root {
-    --primary-color: #63ff29;
-    --secondary-color: #86ffa9;
-    --background-color: #ffffff;
-    --text-color: #ffffff;
-    --overlay-color: #99ff96;
+    --primary-color: #2fa604ec;
+    --secondary-color: #008826e9;
+    --background-color: #ffffffe3;
+    --text-color: #ffffffe3;
+    --overlay-color: #048e89;
   }
 
 
@@ -35,12 +35,12 @@ h1 {
 
 nav {
     margin-top: 10px;
-    border-radius: 100em;
+    border-radius: 2em;
 }
 
 .hamburger {
     display: block;
-    background-color: transparent;
+    background-color: var(--primary-color);
     border: none;
     color: var(--background-color);
     font-size: 30px;
@@ -61,7 +61,7 @@ nav {
     position: absolute;
     top: 30px;
     right: 60px;
-    background-color:var(--primary-color)
+    background-color:var(--primary-color);
 }
 
 .nav-links.show {
