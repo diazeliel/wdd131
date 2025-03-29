@@ -1,8 +1,8 @@
 :root {
     --primary-color: #63ff29;
     --secondary-color: #86ffa9;
-    --background-color: #f5f5f5;
-    --text-color: white;
+    --background-color: #ffffff;
+    --text-color: #ffffff;
     --overlay-color: #99ff96;
   }
 
@@ -13,7 +13,7 @@ body {
     font-style: normal;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: var(--background-color);
     color: black;
     display: flex;
     flex-direction: column;
@@ -23,7 +23,7 @@ body {
 header {
     width: 100%;
     background-color:var(--primary-color);
-    color: white;
+    color: var(--background-color);
     padding: 1rem;
     text-align: center;
     position: relative;
@@ -42,7 +42,7 @@ nav {
     display: block;
     background-color: transparent;
     border: none;
-    color: white;
+    color: var(--background-color);
     font-size: 30px;
     position: absolute;
     right: 20px;
@@ -70,13 +70,13 @@ nav {
 
 .nav-links li a {
     text-decoration: none;
-    color: white;
+    color: var(--text-color);
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 .nav-links li a:hover {
-    color: #080808;
+    color: black
 }
 
 main {
@@ -106,7 +106,7 @@ figcaption {
 
 footer {
     background-color:var(--primary-color);
-    color: white;
+    color: var(--text-color);
     padding: 10px;
     width: 100%;
     text-align: center;
