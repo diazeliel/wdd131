@@ -37,24 +37,21 @@ main {
     padding: 20px;
     border-radius: 10px;
     width: 100%;
-    max-width: 500px;
+    max-width: 3000px;
     margin-top: 0;
     color: #0b0b0b;
-
 }
 
-  
 
 .label {
-    
     display: flex;
     justify-content: space-between;
     width: 150px;
-    margin: 10px 0;
+    margin: 100px 0;
 }
 .form-container {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     color: #333;
     font-weight: bold;
 }
@@ -84,17 +81,24 @@ main {
 
 .stars {
     display: flex;
-    margin: 10px 0;
+    margin-right: 5px;
     color: #ffcc00;
-    font-size: 20px;
+    font-size: 15px;
     cursor: pointer;
     justify-content: space-between;
-    width: 150px;
+    width: 100px;
+    
 }
 
 .form-container input[type="radio"] {
-    margin-right: 10px;
+    margin: 5px;
+    margin-left: 10px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
 }
+ 
 
 .form-container .checkbox-group {
     margin-bottom: 15px;
@@ -102,8 +106,9 @@ main {
 
 .form-container .checkbox-group span {
     margin-left: 5px;
-    color: #333;}
-
+    color: #333;
+    justify-content: space-between;
+}
 
 footer{
     display: flex;
