@@ -38,13 +38,12 @@ main {
     border-radius: 10px;
     width: 100%;
     max-width: 500px;
-}
-
-
-.form-container  {
     margin-top: 0;
-    color: #333;
+    color: #0b0b0b;
+
 }
+
+  
 
 .label {
     
