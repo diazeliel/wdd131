@@ -54,7 +54,7 @@ main {
 }
 .form-container {
     display: block;
-    margin-bottom: 5px 0;
+    margin-bottom: 5px;
     color: #333;
     font-weight: bold;
 }
