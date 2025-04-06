@@ -37,9 +37,9 @@ main {
     padding: 20px;
     border-radius: 10px;
     width: 100%;
-    max-width: 3000px;
-    margin-top: 0;
-    color: #0b0b0b;
+    max-width: 700px;
+    margin-top: 50;
+    
 }
 
 
@@ -52,7 +52,6 @@ main {
 .form-container {
     display: block;
     margin-bottom: 10px;
-    color: #333;
     font-weight: bold;
 }
 
@@ -69,14 +68,14 @@ main {
 }
 
 .form-container input[type="submit"] {
-    background-color: #5cb85c;
+    background-color: #171e7a;
     color: black;
     border: none;
     cursor: pointer;
 }
 
 .form-container input[type="submit"]:hover {
-    background-color: #4cae4c;
+    background-color: #0310c1;
 }
 
 .stars {
