@@ -2,7 +2,9 @@
 body{
     margin: 0;
     font-family: "Inconsolata", monospace;
-
+    font-family: "Comic Neue", cursive;
+    font-weight: 300;
+    font-style: normal;
     background-color: white;
     padding: 20px;
     display: flex;
