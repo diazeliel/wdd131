@@ -31,8 +31,8 @@ const temples = [
       location: "Aba, Nigeria",
       dedicated: "2005, August, 7",
       price: "Lps. 50.00 unit",
-      
-      
+      imageUrl:
+      "https://raw.githubusercontent.com/diazeliel/wdd131/refs/heads/main/project/images/Brownies.jpeg"      
       
     },
     {
