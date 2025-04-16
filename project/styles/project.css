@@ -80,7 +80,7 @@ nav {
     top: 50%; /* Center vertically */
     left: 50%; /* Center horizontally */
     transform: translate(-50%, -50%); /* Move back half the width and height */
-    width: 600px; /* Set the width as needed */
+    width: 400px; /* Set the width as needed */
     height: auto; /* Maintain aspect ratio */
     opacity: 0.8; /* Optional: Adjust opacity for visibility */
 }
@@ -159,3 +159,7 @@ footer p {
             flex-direction: column;
     position: relative;
   }
+
+.whatapp{
+  transform: scale(0.5); /* Reduce la imagen al 50% de su tamaño original */
+}
