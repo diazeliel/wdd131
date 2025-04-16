@@ -76,6 +76,7 @@ nav {
 
 
 .front {
+  max-width: 400px;
   position: absolute;
     top: 50%; /* Center vertically */
     left: 50%; /* Center horizontally */
@@ -83,6 +84,7 @@ nav {
     width: 400px; /* Set the width as needed */
     height: auto; /* Maintain aspect ratio */
     opacity: 0.8; /* Optional: Adjust opacity for visibility */
+
 }
 .nav-links li a:hover {
   color: black
@@ -159,7 +161,3 @@ footer p {
             flex-direction: column;
     position: relative;
   }
-
-.whatapp{
-  transform: scale(0.5); /* Reduce la imagen al 50% de su tamaño original */
-}
